@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library App</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="text-3xl font-bold text-center mb-10">📚 Бібліотека книг</h1>
+    <div class="flex justify-center mb-5">
+        <input type="text" id="searchInput" placeholder="🔍 Пошук книг..." class="border-2 p-2 w-1/2">
+    </div>
+    <div id="book-form" class="p-5 bg-white shadow-md mb-5">
+        <input id="title" type="text" placeholder="Назва книги" class="block p-2 mb-2 w-full">
+        <input id="author" type="text" placeholder="Автор книги" class="block p-2 mb-2 w-full">
+        <input id="rating" type="number" placeholder="Рейтинг (1-5)" class="block p-2 mb-2 w-full">
+        <button id="addBook" class="bg-blue-500 text-white p-2 w-full">Додати книгу</button>
+    </div>
+    <div id="book-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+</body>
+</html>

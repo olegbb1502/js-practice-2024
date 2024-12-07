@@ -1,0 +1,22 @@
+{
+  "books": [
+    {
+      "id": "1453",
+      "title": "title 2",
+      "author": "adjnaid",
+      "rating": 1
+    },
+    {
+      "id": "8763",
+      "title": "title 3",
+      "author": "asodij",
+      "rating": 5
+    },
+    {
+      "id": "afb7",
+      "title": "4 Title",
+      "author": "Kenedy",
+      "rating": "2"
+    }
+  ]
+}
